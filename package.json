@@ -1,0 +1,37 @@
+{
+	"name": "node-chat-application",
+	"version": "1.0.0",
+	"description": "Chat application with learn with summit",
+	"main": "app.js",
+	"type": "module",
+	"scripts": {
+		"start": "set NODE_ENV=development&& nodemon app.js",
+		"prod": "set NODE_ENV=production&& node app.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/CodeWizard-AB/node-chat-application.git"
+	},
+	"author": "Anunay Argha",
+	"license": "UNLICENSED",
+	"bugs": {
+		"url": "https://github.com/CodeWizard-AB/node-chat-application/issues"
+	},
+	"homepage": "https://github.com/CodeWizard-AB/node-chat-application#readme",
+	"dependencies": {
+		"bcrypt": "^5.1.1",
+		"cookie-parser": "^1.4.6",
+		"cors": "^2.8.5",
+		"dotenv": "^16.4.5",
+		"ejs": "^3.1.10",
+		"express": "^4.19.2",
+		"express-validator": "^7.2.0",
+		"http-errors": "^2.0.0",
+		"jsonwebtoken": "^9.0.2",
+		"mongoose": "^8.5.3",
+		"multer": "^1.4.5-lts.1"
+	},
+	"devDependencies": {
+		"nodemon": "^3.1.4"
+	}
+}
